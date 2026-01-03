@@ -13,6 +13,8 @@ class LanguageSwitcher {
                 'nav.services': 'Services',
                 'nav.projects': 'Projects',
                 'nav.contact': 'Contact',
+                'nav.musab': 'Musab',
+                'nav.alradi': 'Alradi',
 
                 // Hero Section
                 'hero.welcome': 'Hello, I\'m',
@@ -84,6 +86,8 @@ class LanguageSwitcher {
                 'nav.services': 'خدمات',
                 'nav.projects': 'مشاريع',
                 'nav.contact': 'اتصل بي',
+                'nav.musab': 'مصعب',
+                'nav.alradi': 'الرضي',
                 
                 // Hero Section
                 'hero.welcome': 'مرحباً، أنا',
