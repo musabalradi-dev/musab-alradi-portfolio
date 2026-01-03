@@ -1,132 +1,223 @@
-// Mobile Menu Toggle
-const menuToggle = document.getElementById('menuToggle');
-const navLinks = document.querySelector('.nav-links');
+// ===== Mobile Menu Functionality =====
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.querySelector(".nav-links");
+const body = document.body;
+const navLinksElements = document.querySelectorAll(".nav-link");
 
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-    menuToggle.innerHTML = navLinks.classList.contains('active') 
-        ? '<i class="bx bx-x"></i>' 
-        : '<i class="bx bx-menu"></i>';
+// Toggle Mobile Menu
+menuToggle.addEventListener("click", (e) => {
+  e.stopPropagation();
+  navLinks.classList.toggle("active");
+
+  // تغيير الأيقونة
+  const icon = menuToggle.querySelector("i");
+  if (navLinks.classList.contains("active")) {
+    icon.classList.remove("bx-menu");
+    icon.classList.add("bx-x");
+    body.style.overflow = "hidden"; // منع التمرير عند فتح المنيو
+  } else {
+    icon.classList.remove("bx-x");
+    icon.classList.add("bx-menu");
+    body.style.overflow = ""; // إعادة التمرير
+  }
+});
+
+// Close menu when clicking on a link
+navLinksElements.forEach((link) => {
+  link.addEventListener("click", () => {
+    if (window.innerWidth <= 768) {
+      navLinks.classList.remove("active");
+      menuToggle.querySelector("i").classList.remove("bx-x");
+      menuToggle.querySelector("i").classList.add("bx-menu");
+      body.style.overflow = "";
+    }
+  });
 });
 
 // Close menu when clicking outside
-document.addEventListener('click', (e) => {
-    if (!e.target.closest('.nav-links') && !e.target.closest('.menu-toggle')) {
-        navLinks.classList.remove('active');
-        menuToggle.innerHTML = '<i class="bx bx-menu"></i>';
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".nav-links") && !e.target.closest(".menu-toggle")) {
+    navLinks.classList.remove("active");
+    const icon = menuToggle.querySelector("i");
+    icon.classList.remove("bx-x");
+    icon.classList.add("bx-menu");
+    body.style.overflow = "";
+  }
+});
+
+// Close menu on escape key
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && navLinks.classList.contains("active")) {
+    navLinks.classList.remove("active");
+    menuToggle.querySelector("i").classList.remove("bx-x");
+    menuToggle.querySelector("i").classList.add("bx-menu");
+    body.style.overflow = "";
+  }
+});
+
+// ===== Smooth Scrolling =====
+document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    const targetId = this.getAttribute("href");
+    if (targetId === "#") return;
+
+    e.preventDefault();
+    const targetElement = document.querySelector(targetId);
+
+    if (targetElement) {
+      // إغلاق المنيو المتنقل إذا كان مفتوحاً
+      if (window.innerWidth <= 768) {
+        navLinks.classList.remove("active");
+        menuToggle.querySelector("i").classList.remove("bx-x");
+        menuToggle.querySelector("i").classList.add("bx-menu");
+        body.style.overflow = "";
+      }
+
+      // التمرير السلس للعنصر المستهدف
+      window.scrollTo({
+        top: targetElement.offsetTop - 80,
+        behavior: "smooth",
+      });
     }
+  });
 });
 
-// Smooth scrolling for anchor links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        if (targetId === '#') return;
-        
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-            // Close mobile menu if open
-            navLinks.classList.remove('active');
-            menuToggle.innerHTML = '<i class="bx bx-menu"></i>';
-            
-            // Scroll to target
-            window.scrollTo({
-                top: targetElement.offsetTop - 80,
-                behavior: 'smooth'
-            });
-        }
-    });
+// ===== Active Nav Link Based on Scroll =====
+const sections = document.querySelectorAll("section");
+
+window.addEventListener("scroll", () => {
+  let current = "";
+  const scrollPosition = window.pageYOffset + 150;
+
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+
+    if (
+      scrollPosition >= sectionTop &&
+      scrollPosition < sectionTop + sectionHeight
+    ) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLinksElements.forEach((link) => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === `#${current}`) {
+      link.classList.add("active");
+    }
+  });
 });
 
-// Active nav link based on scroll position
-const sections = document.querySelectorAll('section');
-const navLinksElements = document.querySelectorAll('.nav-link');
-
-window.addEventListener('scroll', () => {
-    let current = '';
-    
-    sections.forEach(section => {
-        const sectionTop = section.offsetTop;
-        const sectionHeight = section.clientHeight;
-        
-        if (pageYOffset >= sectionTop - 100) {
-            current = section.getAttribute('id');
-        }
-    });
-    
-    navLinksElements.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === `#${current}`) {
-            link.classList.add('active');
-        }
-    });
+// ===== Navbar Scroll Effect =====
+window.addEventListener("scroll", () => {
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  } else {
+    navbar.classList.remove("scrolled");
+  }
 });
 
-// Animated counter for stats
+// ===== Handle Window Resize =====
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    navLinks.classList.remove("active");
+    menuToggle.querySelector("i").classList.remove("bx-x");
+    menuToggle.querySelector("i").classList.add("bx-menu");
+    body.style.overflow = "";
+  }
+});
+
+// ===== Initialize on DOM Load =====
+document.addEventListener("DOMContentLoaded", () => {
+  // تطبيق تأثير Scroll للنافبار
+  const navbar = document.querySelector(".navbar");
+  if (window.scrollY > 50) {
+    navbar.classList.add("scrolled");
+  }
+
+  // تعيين الرابط النشط الأولي
+  if (window.location.hash) {
+    const activeLink = document.querySelector(
+      `a[href="${window.location.hash}"]`
+    );
+    if (activeLink) {
+      activeLink.classList.add("active");
+    }
+  } else {
+    const homeLink = document.querySelector('a[href="#home"]');
+    if (homeLink) {
+      homeLink.classList.add("active");
+    }
+  }
+
+  // تهيئة العداد المتحرك
+  animateCounter();
+
+  // إرسال النموذج
+  const contactForm = document.getElementById("contactForm");
+  if (contactForm) {
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      // في التطبيق الحقيقي، هنا سيتم إرسال البيانات للخادم
+      const formData = new FormData(this);
+      const data = Object.fromEntries(formData);
+
+      console.log("Form submitted:", data);
+
+      // عرض رسالة نجاح
+      alert("شكراً على رسالتك! سأتواصل معك قريباً.");
+      this.reset();
+    });
+  }
+
+  // التحقق من تفضيلات الثيم المحفوظة
+  const savedTheme = localStorage.getItem("theme");
+  if (savedTheme) {
+    document.body.className = savedTheme;
+  }
+
+  // التحقق من تفضيلات اللغة المحفوظة
+  const savedLang = localStorage.getItem("language") || "en";
+  if (savedLang === "ar") {
+    document.documentElement.dir = "rtl";
+    document.documentElement.lang = "ar";
+  }
+});
+
+// ===== Animated Counter for Stats =====
 function animateCounter() {
-    const counters = document.querySelectorAll('.stat-number');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const counter = entry.target;
-                const target = parseInt(counter.getAttribute('data-count'));
-                const duration = 2000; // 2 seconds
-                const increment = target / (duration / 16); // 60fps
-                let current = 0;
-                
-                const timer = setInterval(() => {
-                    current += increment;
-                    if (current >= target) {
-                        counter.textContent = target;
-                        clearInterval(timer);
-                    } else {
-                        counter.textContent = Math.floor(current);
-                    }
-                }, 16);
-                
-                observer.unobserve(counter);
-            }
-        });
-    }, { threshold: 0.5 });
-    
-    counters.forEach(counter => observer.observe(counter));
-}
+  const counters = document.querySelectorAll(".stat-number");
 
-// Initialize when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    // Initialize animated counter
-    animateCounter();
-    
-    // Form submission
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            // In a real application, you would send this to a server
-            console.log('Form submitted:', data);
-            
-            // Show success message
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
-    }
-    
-    // Check for saved theme preference
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-        document.body.className = savedTheme;
-    }
-    
-    // Check for saved language preference
-    const savedLang = localStorage.getItem('language') || 'en';
-    if (savedLang === 'ar') {
-        document.documentElement.dir = 'rtl';
-    }
-});
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const counter = entry.target;
+          const target = parseInt(counter.getAttribute("data-count"));
+          const duration = 1500;
+          const increment = target / (duration / 16);
+          let current = 0;
+
+          const updateCounter = () => {
+            current += increment;
+            if (current >= target) {
+              counter.textContent = target;
+            } else {
+              counter.textContent = Math.floor(current);
+              requestAnimationFrame(updateCounter);
+            }
+          };
+
+          requestAnimationFrame(updateCounter);
+          observer.unobserve(counter);
+        }
+      });
+    },
+    { threshold: 0.5, rootMargin: "0px 0px -50px 0px" }
+  );
+
+  counters.forEach((counter) => observer.observe(counter));
+}
