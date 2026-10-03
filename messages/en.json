@@ -1,0 +1,1090 @@
+{
+  "SEO": {
+    "site": {
+      "title": "Musab Alradi | IT & Telecom Engineer",
+      "description": "Musab Alradi Mohammed - IT and Telecom Engineer specialized in software development, networking, telecommunications infrastructure, and technical support."
+    },
+    "home": {
+      "title": "Musab Alradi | IT & Telecom Engineer",
+      "description": "Professional portfolio of Musab Alradi Mohammed, an IT and Telecom Engineer specializing in software development, networking, telecommunications, and technical support."
+    },
+    "about": {
+      "title": "About Me | Musab Alradi",
+      "description": "Learn more about Musab Alradi Mohammed, an IT and Telecom Professional specializing in software development, networking, telecommunications, and technical support."
+    },
+    "skills": {
+      "title": "Skills | Musab Alradi",
+      "description": "Technical skills and professional expertise in software development, networking, telecommunications, and technical support."
+    },
+    "experience": {
+      "title": "Experience | Musab Alradi",
+      "description": "Professional experience in software development, telecommunications, networking, technical support, and field operations."
+    },
+    "services": {
+      "title": "Services | Musab Alradi",
+      "description": "Professional software development, networking, telecommunications, technical support, and IT services."
+    },
+    "projects": {
+      "title": "Projects | Musab Alradi",
+      "description": "Explore software development, networking, telecommunications, and IT projects completed by Musab Alradi."
+    },
+    "telecom": {
+      "title": "Telecommunications | Musab Alradi",
+      "description": "Telecommunications technologies, systems, networks, and technical expertise."
+    },
+    "certificates": {
+      "title": "Certificates & Education | Musab Alradi",
+      "description": "Academic background, professional certifications, and technical training."
+    },
+    "fieldWork": {
+      "title": "Field Work | Musab Alradi",
+      "description": "Practical field experience in telecommunications infrastructure, network installation, maintenance, and technical operations."
+    },
+    "testimonials": {
+      "title": "Testimonials | Musab Alradi",
+      "description": "Recommendations and testimonials from clients and colleagues."
+    },
+    "contact": {
+      "title": "Contact | Musab Alradi",
+      "description": "Get in touch with Musab Alradi Mohammed for software development, networking, telecommunications, and technical support services."
+    }
+  },
+
+  "Navigation": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "services": "Services",
+    "projects": "Projects",
+    "telecom": "Telecom",
+    "certificates": "Certificates",
+    "fieldWork": "Field Work",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+
+  "Common": {
+    "viewMore": "View More",
+    "viewDetails": "View Details",
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "back": "Back",
+    "backToHome": "Back to Home",
+    "download": "Download",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me",
+    "sendMessage": "Send Message",
+    "loading": "Loading...",
+    "available": "Available",
+    "years": "Years",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "services": "Services",
+    "skills": "Skills",
+    "experience": "Experience",
+    "all": "All",
+    "software": "Software",
+    "web": "Web",
+    "mobile": "Mobile",
+    "desktop": "Desktop",
+    "telecom": "Telecom",
+    "networking": "Networking"
+  },
+
+  "Hero": {
+    "greeting": "Hello, I'm Musab Alradi Mohammed",
+    "title": "IT & Telecom Engineer",
+    "description": "Specialized in software development, networking, telecommunications infrastructure, and technical support, with practical experience in application development and telecom systems.",
+    "contactButton": "Contact Me",
+    "projectsButton": "My Projects",
+    "cvButton": "Download CV",
+    "available": "Available for Work",
+    "scroll": "Explore More",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects",
+      "technologies": "Technologies",
+      "domains": "Main Domains"
+    }
+  },
+
+  "Stats": {
+    "experience": {
+      "label": "Years Experience",
+      "value": "7+"
+    },
+    "projects": {
+      "label": "Projects Completed",
+      "value": "20+"
+    },
+    "technologies": {
+      "label": "Technologies",
+      "value": "30+"
+    },
+    "telecom": {
+      "label": "Telecom Technologies",
+      "value": "10+"
+    },
+    "domains": {
+      "label": "Main Domains",
+      "value": "4"
+    }
+  },
+
+  "About": {
+    "eyebrow": "About Me",
+    "title": "IT & Telecom Engineer",
+    "shortDescription": "IT & Telecom Engineer specializing in software development, networking, telecommunications infrastructure, and technical support.",
+    "description": "I am an IT and Telecom Engineer with practical experience across software development, networking, telecommunications infrastructure, and technical field operations.",
+    "descriptionSecondary": "My work combines software engineering with hands-on experience in telecom networks, BTS, RF, microwave links, transmission systems, and technical infrastructure.",
+    "readMore": "Read More",
+    "expertiseEyebrow": "Professional Expertise",
+    "expertiseTitle": "Areas of Expertise",
+    "contactButton": "Contact Me",
+    "cvButton": "Download CV",
+
+    "highlights": {
+      "software": {
+        "title": "Software Development",
+        "description": "Web and mobile application development and software solutions."
+      },
+      "networking": {
+        "title": "Networking",
+        "description": "Network infrastructure, administration, and technical troubleshooting."
+      },
+      "telecom": {
+        "title": "Telecommunications",
+        "description": "Installation and maintenance of telecommunications systems and tower sites."
+      },
+      "support": {
+        "title": "Technical Support",
+        "description": "Technical troubleshooting, diagnostics, and practical solutions."
+      }
+    },
+
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects",
+      "technologies": "Technologies"
+    }
+  },
+
+  "Skills": {
+    "eyebrow": "My Skills",
+    "title": "Technical Skills",
+    "level": "Skill Level",
+    "description": "A combination of software development, networking, telecommunications, and technical support skills.",
+
+    "categories": {
+      "software": {
+        "title": "Software Development",
+        "description": "Modern software development technologies, programming languages, frameworks, and application development.",
+        "level": "Advanced",
+        "percentage": 90
+      },
+
+      "networking": {
+        "title": "Networking",
+        "description": "Network infrastructure, configuration, administration, monitoring, and troubleshooting.",
+        "level": "Advanced",
+        "percentage": 85
+      },
+
+      "telecom": {
+        "title": "Telecommunications",
+        "description": "Telecom systems, mobile networks, transmission, RF, microwave links, BTS, and field operations.",
+        "level": "Advanced",
+        "percentage": 90
+      },
+
+      "technical-support": {
+        "title": "Technical Support",
+        "description": "Technical diagnostics, troubleshooting, maintenance, problem solving, and field technical support.",
+        "level": "Advanced",
+        "percentage": 90
+      },
+
+      "tools": {
+        "title": "Tools & Technologies",
+        "description": "Development, design, testing, deployment, networking, monitoring, and productivity tools.",
+        "level": "Professional",
+        "percentage": 85
+      }
+    }
+  },
+
+  "Experience": {
+  "eyebrow": "Career",
+  "title": "Professional Experience",
+  "description": "My professional experience in software development, telecommunications, networking, and technical operations.",
+  "present": "Present",
+  "current": "Current",
+  "responsibilities": "Responsibilities",
+  "technologies": "Technologies",
+
+  "types": {
+    "full-time": "Full Time",
+    "part-time": "Part Time",
+    "contract": "Contract",
+    "freelance": "Freelance",
+    "internship": "Internship"
+  },
+
+  "items": {
+    "donorsIct": {
+      "position": "Team Leader / Telecom Technical Support",
+      "company": "Donors ICT",
+      "location": "Sudan",
+      "description": "Worked on telecommunications projects involving installation, maintenance, operation, troubleshooting, and technical support for telecom sites and network infrastructure.",
+
+      "responsibilities": {
+        "teamLeadership": "Led technical teams and supervised field activities.",
+        "telecomInstallation": "Installed and commissioned telecommunications equipment and systems.",
+        "maintenance": "Performed preventive and corrective maintenance of telecom sites and equipment.",
+        "troubleshooting": "Diagnosed and resolved technical problems affecting telecom systems and network infrastructure.",
+        "fieldSupervision": "Supervised field teams, site activities, and project implementation."
+      }
+    },
+
+    "telecomSupport": {
+      "position": "Telecommunications Technical Support",
+      "company": "Telecommunications Project",
+      "location": "Sudan",
+      "description": "Provided technical support for telecommunications infrastructure, including installation, operation, maintenance, and troubleshooting of telecom systems.",
+
+      "responsibilities": {
+        "installation": "Installed telecommunications equipment and site infrastructure.",
+        "maintenance": "Performed preventive and corrective maintenance.",
+        "operation": "Operated and monitored telecommunications systems and equipment.",
+        "troubleshooting": "Diagnosed and resolved technical issues in telecom systems and equipment."
+      }
+    }
+  }
+},
+
+  "Services": {
+  "eyebrow": "What I Do",
+  "title": "Professional Services",
+  "description": "Professional technical services across software development, networking, telecommunications, and IT infrastructure.",
+
+  "features": "Key Features",
+  "technologies": "Technologies",
+
+  "categories": {
+    "software": "Software Development",
+    "networking": "Networking",
+    "telecom": "Telecommunications",
+    "technical-support": "Technical Support"
+  },
+
+  "items": {
+    "softwareDevelopment": {
+      "title": "Software Development",
+      "description": "Development of modern web, mobile, and desktop applications.",
+
+      "features": {
+        "mobileApps": "Cross-platform mobile application development.",
+        "webApps": "Modern web application development.",
+        "apis": "RESTful API development and integration.",
+        "databaseSystems": "Database design and application integration."
+      }
+    },
+
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Responsive and modern websites and web applications.",
+
+      "features": {
+        "responsive": "Responsive interfaces for desktop, tablet, and mobile.",
+        "seo": "SEO-friendly website structure and implementation.",
+        "performance": "Performance optimization and fast page loading.",
+        "accessibility": "Accessible and user-friendly web interfaces."
+      }
+    },
+
+    "networking": {
+      "title": "Network Solutions",
+      "description": "Network configuration, administration, monitoring, and troubleshooting.",
+
+      "features": {
+        "networkDesign": "Network infrastructure design and planning.",
+        "configuration": "Router, switch, and network device configuration.",
+        "troubleshooting": "Network diagnostics and troubleshooting.",
+        "monitoring": "Network monitoring and performance analysis."
+      }
+    },
+
+    "telecomInfrastructure": {
+      "title": "Telecommunications Infrastructure",
+      "description": "Installation, maintenance, operation, and troubleshooting of telecommunications infrastructure, BTS sites, transmission systems, and telecom equipment.",
+
+      "features": {
+        "bts": "BTS installation, commissioning, maintenance, and troubleshooting.",
+        "microwave": "Microwave link installation, configuration, and alignment.",
+        "transmission": "Telecom transmission and backhaul systems.",
+        "rf": "RF systems, antennas, signal measurements, and troubleshooting."
+      }
+    },
+
+    "telecomPower": {
+      "title": "Telecom Power Systems",
+      "description": "Installation, maintenance, operation, and troubleshooting of telecommunications power systems.",
+
+      "features": {
+        "powerSystems": "Telecommunications power system installation and maintenance.",
+        "dcSystems": "DC power systems and distribution.",
+        "batteries": "Battery systems, backup power, and battery maintenance.",
+        "troubleshooting": "Diagnosis and troubleshooting of telecom power systems."
+      }
+    },
+
+    "technicalSupport": {
+      "title": "Technical Support",
+      "description": "Technical diagnostics, troubleshooting, maintenance, and field support.",
+
+      "features": {
+        "troubleshooting": "Hardware, software, network, and telecom troubleshooting.",
+        "maintenance": "Preventive and corrective maintenance.",
+        "fieldSupport": "On-site technical support and field operations.",
+        "systemSupport": "Technical support for IT and telecommunications systems."
+      }
+    },
+
+    "microwaveLinks": {
+      "title": "Microwave Links",
+      "description": "Installation, configuration, alignment, and troubleshooting of microwave communication links.",
+
+      "features": {
+        "linkInstallation": "Microwave link installation and commissioning.",
+        "alignment": "Antenna alignment and link optimization.",
+        "configuration": "Microwave equipment configuration.",
+        "troubleshooting": "Microwave link fault diagnosis and troubleshooting."
+      }
+    },
+
+    "siteSurvey": {
+      "title": "Telecom Site Survey",
+      "description": "Technical site surveys and assessments for telecommunications infrastructure and network deployment.",
+
+      "features": {
+        "siteSurvey": "Telecommunications site surveys and inspections.",
+        "siteAssessment": "Technical assessment of proposed and existing sites.",
+        "measurements": "RF, physical, and technical measurements.",
+        "reporting": "Preparation of technical survey reports and documentation."
+      }
+    }
+  }
+},
+
+  "Projects": {
+  "eyebrow": "My Work",
+  "title": "Featured Projects",
+  "description": "A selection of software, web, mobile, desktop, networking, and telecommunications projects.",
+
+  "featuredTitle": "Featured Projects",
+  "featuredDescription": "A selection of my latest software, web, mobile, desktop, and telecommunications projects.",
+  "viewAll": "View All Projects",
+
+  "viewProject": "View Project",
+  "viewDetails": "View Details",
+  "sourceCode": "Source Code",
+  "liveDemo": "Live Demo",
+
+  "technologies": "Technologies",
+  "features": "Features",
+  "challenges": "Challenges",
+  "solutions": "Solutions",
+  "overview": "Project Overview",
+  "links": "Project Links",
+
+  "category": "Category",
+  "year": "Year",
+
+  "allProjects": "All Projects",
+  "featured": "Featured Projects",
+  "relatedProjects": "Related Projects",
+  "relatedDescription": "Explore other projects that may be relevant to this work.",
+  "backToProjects": "Back to Projects",
+
+  "categories": {
+    "all": "All Projects",
+    "software": "Software",
+    "web": "Web Development",
+    "mobile": "Mobile Development",
+    "desktop": "Desktop Applications",
+    "telecom": "Telecommunications",
+    "networking": "Networking"
+  },
+
+  "items": {
+    "ecommerceMobile": {
+      "title": "E-Commerce Mobile App",
+      "shortDescription": "A modern cross-platform mobile e-commerce application.",
+      "description": "A full-featured mobile e-commerce application built with Flutter, providing product browsing, authentication, shopping cart, orders, notifications, and API integration.",
+
+      "features": {
+        "authentication": "User authentication and account management.",
+        "products": "Product browsing and product details.",
+        "cart": "Shopping cart management.",
+        "orders": "Order creation and order tracking.",
+        "notifications": "Push notifications and user updates."
+      },
+
+      "challenges": {
+        "performance": "Maintaining smooth performance across different mobile devices.",
+        "stateManagement": "Managing complex application state across multiple screens.",
+        "apiIntegration": "Integrating the mobile application with backend REST APIs."
+      },
+
+      "solutions": {
+        "blocArchitecture": "Used BLoC architecture for predictable and scalable state management.",
+        "dioNetworking": "Used Dio for structured API communication and network handling.",
+        "optimizedWidgets": "Optimized Flutter widgets and screen rendering for better performance."
+      }
+    },
+
+    "debtExpense": {
+      "title": "Debt & Expense Management App",
+      "shortDescription": "A mobile application for managing debts, expenses, payments, and financial records.",
+      "description": "A Flutter-based debt and expense management application designed to help users track debts, expenses, payments, reports, and financial records with offline data support.",
+
+      "features": {
+        "debtManagement": "Debt creation, tracking, and management.",
+        "expenseTracking": "Expense recording and expense categorization.",
+        "payments": "Payment tracking and transaction management.",
+        "reports": "Financial reports and transaction summaries.",
+        "offlineStorage": "Local data storage for offline operation."
+      },
+
+      "challenges": {
+        "localDatabase": "Designing a reliable local database for financial records.",
+        "dataConsistency": "Maintaining data consistency across related financial transactions.",
+        "offlineSupport": "Providing reliable application functionality without an internet connection."
+      },
+
+      "solutions": {
+        "isarDatabase": "Used Isar for fast and structured local database storage.",
+        "cleanArchitecture": "Applied Clean Architecture for maintainable and scalable code.",
+        "reactiveState": "Used reactive state management for real-time UI updates."
+      }
+    },
+
+    "travel-tourism-website": {
+      "title": "Travel & Tourism Website",
+      "shortDescription": "A responsive travel and tourism website for discovering destinations and travel services.",
+      "description": "A modern travel and tourism web application built with Next.js and TypeScript, providing destination discovery, search, booking functionality, responsive design, and API integration.",
+
+      "features": {
+        "destinations": "Travel destination browsing and information.",
+        "booking": "Travel and service booking functionality.",
+        "search": "Destination and content search.",
+        "responsive": "Responsive experience across desktop, tablet, and mobile devices."
+      },
+
+      "challenges": {
+        "performance": "Maintaining fast performance while displaying rich travel content.",
+        "search": "Providing an efficient search experience for destinations and content.",
+        "responsive": "Creating a consistent user experience across different screen sizes."
+      },
+
+      "solutions": {
+        "nextjs": "Used Next.js for modern server-rendered web development.",
+        "optimizedImages": "Applied image optimization to improve loading performance.",
+        "responsiveUI": "Implemented responsive UI layouts using modern CSS techniques."
+      }
+    },
+
+    "newsWebsite": {
+      "title": "News Website",
+      "shortDescription": "A modern news platform for publishing, browsing, and searching news articles.",
+      "description": "A modern news website built with Next.js, TypeScript, Node.js, and REST APIs, supporting article management, categories, search, and administrative functionality.",
+
+      "features": {
+        "articles": "News article publishing and browsing.",
+        "categories": "News categorization and content organization.",
+        "search": "Article and news search functionality.",
+        "admin": "Administrative content management functionality."
+      },
+
+      "challenges": {
+        "contentManagement": "Managing and organizing a large amount of news content.",
+        "performance": "Maintaining fast page loading and efficient content delivery.",
+        "search": "Providing efficient search across news articles."
+      },
+
+      "solutions": {
+        "nextjs": "Used Next.js for scalable and modern web application development.",
+        "apiArchitecture": "Implemented a structured REST API architecture.",
+        "optimizedSearch": "Applied optimized search and content retrieval strategies."
+      }
+    },
+
+    "warehouse": {
+      "title": "Warehouse Management System",
+      "shortDescription": "A desktop warehouse management system for inventory, products, suppliers, and reporting.",
+      "description": "A desktop warehouse management system designed to manage inventory, products, suppliers, transactions, and operational reports using C#, .NET, and SQL Server.",
+
+      "features": {
+        "inventory": "Inventory management and stock tracking.",
+        "products": "Product registration and management.",
+        "suppliers": "Supplier information and management.",
+        "reports": "Inventory and operational reports."
+      },
+
+      "challenges": {
+        "inventoryAccuracy": "Maintaining accurate inventory records and stock levels.",
+        "dataManagement": "Managing structured warehouse and product data.",
+        "reporting": "Generating accurate operational and inventory reports."
+      },
+
+      "solutions": {
+        "sqlServer": "Used SQL Server for reliable relational data storage.",
+        "structuredDatabase": "Designed a structured database for warehouse operations.",
+        "automatedReports": "Implemented automated reporting for operational information."
+      }
+    },
+
+    "restaurant": {
+      "title": "Restaurant Management System",
+      "shortDescription": "A desktop restaurant management system for orders, tables, menus, and reporting.",
+      "description": "A desktop restaurant management system developed to manage orders, tables, menus, and operational reports using C#, .NET, and SQL Server.",
+
+      "features": {
+        "orders": "Order creation and order management.",
+        "tables": "Restaurant table management.",
+        "menu": "Menu and product management.",
+        "reports": "Restaurant operational and sales reports."
+      },
+
+      "challenges": {
+        "orderManagement": "Managing orders efficiently during daily restaurant operations.",
+        "tableManagement": "Keeping table status and availability up to date.",
+        "dataAccuracy": "Maintaining accurate order and transaction records."
+      },
+
+      "solutions": {
+        "databaseDesign": "Designed a structured relational database.",
+        "orderWorkflow": "Implemented a clear order management workflow.",
+        "automatedReports": "Provided automated operational and sales reports."
+      }
+    },
+
+    "telecomField": {
+      "title": "Telecom Field Engineering App",
+      "shortDescription": "A mobile field engineering application for telecommunications site operations and technical teams.",
+      "description": "A Flutter-based field engineering application designed to support telecommunications engineers and technicians with site management, tasks, equipment tracking, surveys, maintenance, safety, quality control, microwave, and power operations.",
+
+      "features": {
+        "siteManagement": "Telecommunications site management and information.",
+        "tasks": "Field task assignment and tracking.",
+        "equipment": "Equipment and asset management.",
+        "survey": "Telecommunications site survey management.",
+        "maintenance": "Preventive and corrective maintenance tracking.",
+        "reports": "Field reports and technical documentation.",
+        "safety": "EHS and field safety information.",
+        "qualityControl": "Quality control and site inspection workflows.",
+        "microwave": "Microwave link information and field operations.",
+        "power": "Telecom power system information and maintenance."
+      },
+
+      "challenges": {
+        "fieldConnectivity": "Supporting field teams in areas with unstable or limited connectivity.",
+        "offlineOperations": "Allowing technicians to continue working when offline.",
+        "largeFieldData": "Managing large amounts of technical and field operation data."
+      },
+
+      "solutions": {
+        "offlineFirst": "Applied an offline-first approach for field operations.",
+        "localCaching": "Used local caching to provide access to important field data.",
+        "syncEngine": "Implemented data synchronization between local and remote systems."
+      }
+    }
+  }
+},
+
+  "Telecom": {
+  "eyebrow": "Telecommunications",
+  "title": "Telecommunications Expertise",
+  "description": "Practical experience in telecommunications networks, infrastructure, transmission systems, and telecom site operations.",
+
+  "viewAll": "View All Telecom Technologies",
+
+  "architectureEyebrow": "Network Architecture",
+  "architectureTitle": "Telecommunications Network Architecture",
+  "architectureDescription": "A layered overview of telecommunications infrastructure, from end users and radio access to transport, core networks, and services.",
+
+  "technologiesEyebrow": "Telecom Technologies",
+  "technologiesTitle": "Telecommunications Technologies",
+  "technologiesDescription": "Explore the telecommunications technologies, systems, and infrastructure I have practical experience with.",
+"technologiesLabel": "Technologies",
+
+  "technologies": {
+    "gsm": {
+      "title": "2G / GSM",
+      "description": "Second-generation mobile network technology for voice, SMS, and basic mobile data services."
+    },
+    "lte": {
+      "title": "4G / LTE",
+      "description": "Fourth-generation mobile network technology providing high-speed mobile broadband and IP-based services."
+    },
+    "microwave": {
+      "title": "Microwave Links",
+      "description": "Point-to-point microwave communication systems used for telecom backhaul and site connectivity."
+    },
+    "wireless": {
+      "title": "Wireless Networks",
+      "description": "Wireless networking technologies for site connectivity, enterprise networks, and internet access."
+    }
+  },
+
+  "features": "Key Features",
+
+  "architecture": {
+    "user": {
+      "title": "End Users",
+      "description": "Mobile users and connected devices accessing telecommunications services."
+    },
+    "radio": {
+      "title": "Radio Access",
+      "description": "Wireless radio access technologies including GSM, UMTS, LTE, RF, and antennas."
+    },
+    "transport": {
+      "title": "Transport Network",
+      "description": "Microwave, transmission, and backhaul systems connecting telecom sites."
+    },
+    "core": {
+      "title": "Core Network",
+      "description": "Core network infrastructure responsible for routing, mobility, services, and connectivity."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Telecommunications services including voice, messaging, data, broadband, and enterprise connectivity."
+    }
+  },
+
+  "sections": {
+    "networks": {
+      "title": "Mobile Networks",
+      "description": "Experience with 2G, 3G, and 4G mobile network technologies."
+    },
+    "transmission": {
+      "title": "Transmission",
+      "description": "Microwave and transmission systems used for telecom connectivity."
+    },
+    "power": {
+      "title": "Telecom Power",
+      "description": "Installation, operation, maintenance, and troubleshooting of telecom power systems."
+    },
+    "sites": {
+      "title": "Telecom Sites",
+      "description": "Installation, maintenance, operation, and troubleshooting of telecom sites."
+    }
+  },
+  "items": {
+    "gsm": {
+      "name": "2G / GSM",
+      "description": "Second-generation mobile network technology used for voice, SMS, and basic mobile data services.",
+
+      "features": {
+        "bts": "BTS installation, configuration, operation, and maintenance.",
+        "rf": "RF configuration, antenna systems, and signal troubleshooting.",
+        "configuration": "GSM equipment configuration and basic network integration.",
+        "maintenance": "Preventive and corrective maintenance of GSM sites."
+      },
+
+      "applications": {
+        "voice": "Mobile voice communication.",
+        "sms": "SMS and messaging services.",
+        "data": "Basic mobile data services."
+      }
+    },
+
+    "umts": {
+      "name": "3G / UMTS",
+      "description": "Third-generation mobile network technology based on UMTS and WCDMA radio access.",
+
+      "features": {
+        "nodeB": "NodeB installation, operation, and maintenance.",
+        "rnc": "RNC connectivity and radio network support.",
+        "rf": "RF systems, antennas, and radio signal troubleshooting.",
+        "maintenance": "Preventive and corrective maintenance of 3G sites."
+      },
+
+      "applications": {
+        "voice": "3G mobile voice services.",
+        "data": "Mobile broadband and data services.",
+        "video": "Mobile video and multimedia services."
+      }
+    },
+
+    "lte": {
+      "name": "4G / LTE",
+      "description": "Fourth-generation mobile network technology providing high-speed mobile broadband and IP-based services.",
+
+      "features": {
+        "enodeb": "eNodeB installation, commissioning, and maintenance.",
+        "rf": "LTE RF systems, antennas, and signal troubleshooting.",
+        "configuration": "LTE equipment configuration and network integration.",
+        "optimization": "Basic LTE coverage, performance, and radio optimization."
+      },
+
+      "applications": {
+        "mobileData": "High-speed mobile data services.",
+        "broadband": "Mobile broadband connectivity.",
+        "voice": "IP-based mobile voice services."
+      }
+    },
+
+    "microwave": {
+      "name": "Microwave Links",
+      "description": "Point-to-point microwave communication systems used for telecom backhaul and site connectivity.",
+
+      "features": {
+        "installation": "Microwave equipment and antenna installation.",
+        "alignment": "Antenna alignment and link optimization.",
+        "configuration": "Microwave radio configuration and commissioning.",
+        "troubleshooting": "Microwave link fault diagnosis and troubleshooting."
+      },
+
+      "applications": {
+        "backhaul": "Telecom backhaul connectivity.",
+        "siteConnectivity": "Connectivity between telecom sites.",
+        "transmission": "Transmission of voice and data traffic."
+      }
+    },
+
+    "rf": {
+      "name": "RF Systems",
+      "description": "Radio frequency systems, antennas, feeders, signal measurements, and RF troubleshooting.",
+
+      "features": {
+        "antenna": "RF antenna installation and configuration.",
+        "signal": "Radio signal monitoring and analysis.",
+        "measurements": "RF measurements and signal testing.",
+        "troubleshooting": "RF fault diagnosis and troubleshooting."
+      },
+
+      "applications": {
+        "mobileNetworks": "Mobile network radio access systems.",
+        "siteTesting": "Telecom site RF testing and commissioning.",
+        "optimization": "RF coverage and performance optimization."
+      }
+    },
+
+    "transmission": {
+      "name": "Transmission Systems",
+      "description": "Telecommunications transmission and transport systems used to connect sites and network infrastructure.",
+
+      "features": {
+        "backhaul": "Telecom backhaul and transport connectivity.",
+        "linkManagement": "Transmission link monitoring and management.",
+        "configuration": "Transmission equipment configuration.",
+        "troubleshooting": "Transmission fault diagnosis and troubleshooting."
+      },
+
+      "applications": {
+        "btsConnectivity": "Connectivity between BTS sites and the transport network.",
+        "backbone": "Telecommunications backbone connectivity.",
+        "siteIntegration": "Integration of telecom sites into the transport network."
+      }
+    },
+
+    "telecomPower": {
+      "name": "Telecom Power Systems",
+      "description": "Power infrastructure supporting telecommunications sites, equipment, and network availability.",
+
+      "features": {
+        "dcSystems": "DC power systems and distribution.",
+        "rectifiers": "Rectifier systems and DC power conversion.",
+        "batteries": "Telecom battery systems and backup power.",
+        "maintenance": "Preventive and corrective maintenance of telecom power systems."
+      },
+
+      "applications": {
+        "btsSites": "Power systems for BTS and mobile network sites.",
+        "transmissionSites": "Power systems for transmission and microwave sites.",
+        "remoteSites": "Power solutions for remote telecommunications sites."
+      }
+    },
+
+    "fiberFtth": {
+      "name": "FTTH / OLT",
+      "description": "Fiber-optic access technologies including FTTH, GPON, OLT, and ONT systems.",
+
+      "features": {
+        "olt": "OLT installation, configuration, and operation.",
+        "ont": "ONT installation and subscriber-side configuration.",
+        "gpon": "GPON access network technologies.",
+        "fiber": "Fiber-optic installation, testing, and troubleshooting."
+      },
+
+      "applications": {
+        "broadband": "High-speed fiber broadband services.",
+        "fiberAccess": "Fiber access networks for residential and business users.",
+        "enterprise": "Enterprise fiber connectivity."
+      }
+    },
+
+    "wireless": {
+      "name": "Wireless Networks",
+      "description": "Wireless networking technologies for site connectivity, enterprise networks, and internet access.",
+
+      "features": {
+        "configuration": "Wireless network configuration and management.",
+        "installation": "Wireless equipment installation.",
+        "coverage": "Wireless coverage planning and optimization.",
+        "troubleshooting": "Wireless connectivity troubleshooting."
+      },
+
+      "applications": {
+        "enterprise": "Enterprise wireless networks.",
+        "siteConnectivity": "Wireless connectivity between sites.",
+        "internetAccess": "Wireless internet access."
+      }
+    }
+  }
+},
+
+  "Certificates": {
+  "eyebrow": "Qualifications",
+  "title": "Certificates & Education",
+  "description": "Academic background and professional certifications.",
+  "viewAll": "View All Certificates",
+  "certificate": "Certificate",
+  "issuer": "Issued By",
+  "date": "Date",
+  "education": "Education",
+  "viewCertificate": "View Certificate",
+
+  "empty": "No certificates or educational qualifications are available.",
+
+  "types": {
+    "education": "Education",
+    "certificate": "Certificate",
+    "academic": "Academic",
+    "professional": "Professional",
+    "technical": "Technical",
+    "training": "Training"
+  },
+
+  "items": {
+    "itDiploma": {
+      "title": "Diploma in Information Technology",
+      "issuer": "Sudan University of Science and Technology",
+      "description": "Diploma in Information Technology with a focus on software development, computer systems, and information technology."
+    },
+
+    "cybercrime": {
+      "title": "Cybercrime Certificate",
+      "issuer": "National Telecommunications and Information Technology Authority",
+      "description": "Professional training related to cybercrime, cybersecurity, and information technology."
+    }
+  }
+},
+
+ "FieldWork": {
+  "eyebrow": "Field Experience",
+  "title": "Field Work",
+  "description": "Practical field operations in telecommunications, networking, infrastructure, installation, maintenance, and technical support.",
+
+  "viewDetails": "View Details",
+  "location": "Location",
+  "date": "Date",
+  "role": "Role",
+  "technologies": "Technologies",
+
+  "noImage": "No image available.",
+  "empty": "No field work records are available.",
+
+  "categories": {
+    "installation": "Installation",
+    "microwave": "Microwave",
+    "survey": "Site Survey",
+    "power": "Telecom Power",
+    "maintenance": "Maintenance",
+    "networking": "Networking",
+    "transmission": "Transmission"
+  },
+
+  "items": {
+    "siteInstallation": {
+      "title": "Telecom Site Installation",
+      "description": "Telecommunications site installation and commissioning work involving BTS equipment, cabling, power systems, and site testing.",
+      "location": "Sudan",
+
+      "tasks": {
+        "equipment": "Installation and commissioning of telecommunications equipment.",
+        "cabling": "Installation and organization of power, RF, and transmission cabling.",
+        "power": "Installation and connection of telecom site power systems.",
+        "testing": "Site testing, verification, and commissioning."
+      }
+    },
+
+    "microwave": {
+      "title": "Microwave Link Installation",
+      "description": "Installation, alignment, configuration, and testing of microwave links used for telecommunications backhaul and site connectivity.",
+      "location": "Sudan",
+
+      "tasks": {
+        "installation": "Installation of microwave antennas, IDU, ODU, and related equipment.",
+        "alignment": "Precise antenna alignment and link optimization.",
+        "configuration": "Microwave radio configuration and commissioning.",
+        "testing": "Link testing, verification, and troubleshooting."
+      }
+    },
+
+    "siteSurvey": {
+      "title": "Telecom Site Survey",
+      "description": "Technical site survey activities for telecommunications infrastructure, including location assessment, measurements, RF analysis, and technical reporting.",
+      "location": "Sudan",
+
+      "tasks": {
+        "location": "Site location assessment and GPS coordinate collection.",
+        "measurements": "Physical and technical site measurements.",
+        "rf": "RF assessment and telecommunications coverage analysis.",
+        "report": "Preparation of technical site survey reports."
+      }
+    },
+
+    "telecomPower": {
+      "title": "Telecom Power Systems",
+      "description": "Installation, testing, maintenance, and troubleshooting of power systems supporting telecommunications sites and network equipment.",
+      "location": "Sudan",
+
+      "tasks": {
+        "installation": "Installation of telecom DC power systems and equipment.",
+        "testing": "Testing of rectifiers, batteries, distribution, and power connections.",
+        "maintenance": "Preventive and corrective maintenance of telecom power systems.",
+        "troubleshooting": "Diagnosis and troubleshooting of telecom power faults."
+      }
+    }
+  }
+},
+
+  "Testimonials": {
+    "eyebrow": "Recommendations",
+    "title": "Client Testimonials",
+    "description": "Recommendations and feedback from clients and colleagues.",
+
+    "items": {
+      "client1": {
+        "name": "Client",
+        "role": "Professional",
+        "company": "Company",
+        "content": "Professional, reliable, and committed to delivering practical technical solutions."
+      },
+
+      "client2": {
+        "name": "Client",
+        "role": "Professional",
+        "company": "Company",
+        "content": "Demonstrates strong technical knowledge, teamwork, and problem-solving skills."
+      },
+
+      "client3": {
+        "name": "Client",
+        "role": "Professional",
+        "company": "Company",
+        "content": "A dedicated technical professional with strong field experience and attention to quality."
+      }
+    }
+  },
+
+  "Contact": {
+  "eyebrow": "Get In Touch",
+  "title": "Let's Work Together",
+  "description": "Have a project, technical requirement, or collaboration opportunity? Feel free to get in touch.",
+
+  "email": "Email",
+  "phone": "Phone",
+  "location": "Location",
+  "whatsapp": "WhatsApp",
+  "social": "Social Media",
+
+  "info": {
+    "title": "Contact Information",
+    "description": "Feel free to contact me for projects, technical support, collaboration, or professional opportunities.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "country": "Sudan"
+  },
+
+
+  "cta": {
+  "title": "Let's Work Together",
+  "description": "Have a project, technical requirement, or collaboration opportunity? Let's discuss how I can help.",
+  "button": "Contact Me"
+}
+},
+
+  "Form": {
+  "contactTitle": "Send Me a Message",
+  "contactDescription": "Fill out the form below and I will get back to you as soon as possible.",
+
+  "name": "Name",
+  "email": "Email",
+  "subject": "Subject",
+  "message": "Message",
+
+  "namePlaceholder": "Enter your name",
+  "emailPlaceholder": "Enter your email",
+  "subjectPlaceholder": "Enter the subject",
+  "messagePlaceholder": "Write your message...",
+
+  "send": "Send Message",
+  "sending": "Sending...",
+  "success": "Your message has been sent successfully.",
+  "error": "Something went wrong. Please try again.",
+
+  "required": "This field is required.",
+  "invalidEmail": "Please enter a valid email address."
+},
+
+  "Social": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "facebook": "Facebook",
+    "twitter": "X",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "portfolio": "Portfolio"
+  },
+
+  "Footer": {
+    "description": "IT & Telecom Engineer specializing in software development, networking, telecommunications, and technical support.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "followMe": "Follow Me",
+    "backToTop": "Back to Top",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+
+  "Errors": {
+    "notFound": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for does not exist or has been moved.",
+      "backHome": "Back to Home"
+    },
+
+    "general": {
+      "title": "Something Went Wrong",
+      "description": "An unexpected error occurred. Please try again.",
+      "retry": "Try Again"
+    }
+  },
+
+  "Accessibility": {
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleTheme": "Toggle theme",
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode",
+    "scrollToTop": "Scroll to top",
+    "language": "Language"
+  }
+}

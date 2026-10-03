@@ -1,26 +1,572 @@
 @import "tailwindcss";
 
+/* =========================================================
+   MUSAB ALRADI PORTFOLIO
+   Global Design System
+   Tailwind CSS v4
+   RTL / LTR
+   Light / Dark Mode
+   ========================================================= */
+
+/* =========================================================
+   1. DESIGN TOKENS
+   ========================================================= */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* -----------------------------------------
+     Colors - Light
+     ----------------------------------------- */
+
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+  --color-primary-light: #eff6ff;
+
+  --color-secondary: #0f172a;
+  --color-secondary-hover: #1e293b;
+
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-secondary: #f8fafc;
+  --color-surface-tertiary: #f1f5f9;
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #ffffff;
+
+  --color-border: #e2e8f0;
+  --color-border-hover: #cbd5e1;
+
+  /* -----------------------------------------
+     Status Colors
+     ----------------------------------------- */
+
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-danger: #dc2626;
+  --color-info: #0284c7;
+
+  /* -----------------------------------------
+     Technology Colors
+     ----------------------------------------- */
+
+  --color-software: #7c3aed;
+  --color-networking: #0891b2;
+  --color-telecom: #2563eb;
+
+  /* -----------------------------------------
+     Effects
+     ----------------------------------------- */
+
+  --shadow-sm: 0 1px 2px 0 rgb(15 23 42 / 0.05);
+
+  --shadow-md:
+    0 4px 6px -1px rgb(15 23 42 / 0.08), 0 2px 4px -2px rgb(15 23 42 / 0.08);
+
+  --shadow-lg:
+    0 10px 15px -3px rgb(15 23 42 / 0.08), 0 4px 6px -4px rgb(15 23 42 / 0.08);
+
+  --shadow-xl:
+    0 20px 25px -5px rgb(15 23 42 / 0.1), 0 8px 10px -6px rgb(15 23 42 / 0.1);
+
+  --shadow-glow: 0 0 40px rgb(37 99 235 / 0.15);
+
+  /* -----------------------------------------
+     Radius
+     ----------------------------------------- */
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+
+  /* -----------------------------------------
+     Layout
+     ----------------------------------------- */
+
+  --container-width: 1280px;
+
+  /* -----------------------------------------
+     Fonts
+     ----------------------------------------- */
+
+  --font-sans: var(--font-ibm-plex-arabic);
+  --font-mono: var(--font-jetbrains-mono);
 }
+
+/* =========================================================
+   2. DARK MODE
+   ========================================================= */
+
+.dark {
+  --color-primary: #60a5fa;
+  --color-primary-hover: #93c5fd;
+  --color-primary-light: #172554;
+
+  --color-secondary: #e2e8f0;
+  --color-secondary-hover: #f1f5f9;
+
+  --color-background: #020617;
+  --color-surface: #0f172a;
+  --color-surface-secondary: #111827;
+  --color-surface-tertiary: #1e293b;
+
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
+  --color-text-inverse: #0f172a;
+
+  --color-border: #1e293b;
+  --color-border-hover: #334155;
+
+  --color-success: #4ade80;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --color-info: #38bdf8;
+
+  --color-software: #a78bfa;
+  --color-networking: #22d3ee;
+  --color-telecom: #60a5fa;
+
+  --shadow-glow: 0 0 50px rgb(96 165 250 / 0.15);
+}
+
+/* =========================================================
+   3. TAILWIND V4 THEME
+   ========================================================= */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Colors */
+
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-light: var(--color-primary-light);
+
+  --color-secondary: var(--color-secondary);
+  --color-secondary-hover: var(--color-secondary-hover);
+
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-surface-secondary: var(--color-surface-secondary);
+  --color-surface-tertiary: var(--color-surface-tertiary);
+
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-inverse: var(--color-text-inverse);
+
+  --color-border: var(--color-border);
+  --color-border-hover: var(--color-border-hover);
+
+  --color-success: var(--color-success);
+  --color-warning: var(--color-warning);
+  --color-danger: var(--color-danger);
+  --color-info: var(--color-info);
+
+  --color-software: var(--color-software);
+  --color-networking: var(--color-networking);
+  --color-telecom: var(--color-telecom);
+
+  /* Shadows */
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-glow: var(--shadow-glow);
+
+  /* Radius */
+
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+
+  /* Fonts */
+
+  --font-sans: var(--font-ibm-plex-arabic);
+  --font-mono: var(--font-jetbrains-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* =========================================================
+   4. BASE
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-background);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+
+  background: var(--color-background);
+  color: var(--color-text-primary);
+
+  font-family: var(--font-ibm-plex-arabic), Arial, sans-serif;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  transition:
+    background-color 200ms ease,
+    color 200ms ease;
+}
+
+/* =========================================================
+   5. RTL / LTR
+   ========================================================= */
+
+html[dir="rtl"] {
+  text-align: right;
+}
+
+html[dir="ltr"] {
+  text-align: left;
+}
+
+/* Keep code and technical content LTR */
+
+code,
+pre,
+.font-mono,
+[data-direction="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* =========================================================
+   6. SELECTION
+   ========================================================= */
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+/* =========================================================
+   7. SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-hover);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
+
+/* Firefox */
+
+html {
+  scrollbar-color: var(--color-border-hover) var(--color-surface-secondary);
+
+  scrollbar-width: thin;
+}
+
+/* =========================================================
+   8. LINKS
+   ========================================================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* =========================================================
+   9. IMAGES
+   ========================================================= */
+
+img,
+svg {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* =========================================================
+   10. FORM ELEMENTS
+   ========================================================= */
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* =========================================================
+   11. FOCUS
+   ========================================================= */
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   12. CONTAINER
+   ========================================================= */
+
+.container-page {
+  width: min(calc(100% - 2rem), var(--container-width));
+
+  margin-inline: auto;
+}
+
+@media (min-width: 640px) {
+  .container-page {
+    width: min(calc(100% - 3rem), var(--container-width));
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-page {
+    width: min(calc(100% - 4rem), var(--container-width));
+  }
+}
+
+/* =========================================================
+   13. SECTION
+   ========================================================= */
+
+.section-padding {
+  padding-block: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-block: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-block: 8rem;
+  }
+}
+
+/* =========================================================
+   14. CARD
+   ========================================================= */
+
+.card {
+  border: 1px solid var(--color-border);
+
+  border-radius: var(--radius-xl);
+
+  background: var(--color-surface);
+
+  box-shadow: var(--shadow-sm);
+
+  transition:
+    border-color 200ms ease,
+    box-shadow 200ms ease,
+    transform 200ms ease,
+    background-color 200ms ease;
+}
+
+.card:hover {
+  border-color: var(--color-border-hover);
+  box-shadow: var(--shadow-lg);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+}
+
+/* =========================================================
+   15. GLASS
+   ========================================================= */
+
+.glass {
+  border: 1px solid rgb(255 255 255 / 0.1);
+
+  background: rgb(255 255 255 / 0.7);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.dark .glass {
+  border-color: rgb(255 255 255 / 0.08);
+
+  background: rgb(15 23 42 / 0.7);
+}
+
+/* =========================================================
+   16. HERO
+   ========================================================= */
+
+.hero-glow {
+  position: absolute;
+
+  width: 24rem;
+  height: 24rem;
+
+  border-radius: 999px;
+
+  background: rgb(37 99 235 / 0.15);
+
+  filter: blur(80px);
+
+  pointer-events: none;
+}
+
+.dark .hero-glow {
+  background: rgb(96 165 250 / 0.12);
+}
+
+/* =========================================================
+   17. GRID PATTERN
+   ========================================================= */
+
+.grid-pattern {
+  background-image:
+    linear-gradient(to right, rgb(148 163 184 / 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(148 163 184 / 0.08) 1px, transparent 1px);
+
+  background-size: 40px 40px;
+}
+
+.dark .grid-pattern {
+  background-image:
+    linear-gradient(to right, rgb(148 163 184 / 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(148 163 184 / 0.05) 1px, transparent 1px);
+}
+
+/* =========================================================
+   18. GRADIENT TEXT
+   ========================================================= */
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--color-primary), #7c3aed);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+}
+
+/* =========================================================
+   19. SECTION DIVIDER
+   ========================================================= */
+
+.section-divider {
+  height: 1px;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-border),
+    transparent
+  );
+}
+
+/* =========================================================
+   20. TECHNOLOGY COLORS
+   ========================================================= */
+
+.text-software {
+  color: var(--color-software);
+}
+
+.text-networking {
+  color: var(--color-networking);
+}
+
+.text-telecom {
+  color: var(--color-telecom);
+}
+
+.bg-software {
+  background: color-mix(in srgb, var(--color-software) 10%, transparent);
+}
+
+.bg-networking {
+  background: color-mix(in srgb, var(--color-networking) 10%, transparent);
+}
+
+.bg-telecom {
+  background: color-mix(in srgb, var(--color-telecom) 10%, transparent);
+}
+
+/* =========================================================
+   21. ANIMATIONS
+   ========================================================= */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+/* =========================================================
+   22. REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+  }
 }
