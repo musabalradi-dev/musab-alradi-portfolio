@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+name="google-site-verification" content="GAwDkxZPBTgPnPXUqUZGav8CJO-iqxOt4CtOpEhWV3A"
   title: "Musab Alradi",
   description:
     "Musab Alradi - IT & Telecom Engineer",
