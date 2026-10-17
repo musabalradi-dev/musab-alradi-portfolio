@@ -1,16 +1,10 @@
-import type {
-  MetadataRoute,
-} from "next";
+
+import type { MetadataRoute } from "next";
 
 import { siteConfig } from "@/config/site";
-import {
-  getAllProjectSlugs,
-} from "@/lib/projects";
+import { getAllProjectSlugs } from "@/lib/projects";
 
-const locales = [
-  "en",
-  "ar",
-] as const;
+const locales = ["en", "ar"] as const;
 
 const staticPages = [
   "",
@@ -26,37 +20,37 @@ const staticPages = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = locales.flatMap(
-    (locale) =>
-      staticPages.map((path) => ({
+  const pages: MetadataRoute.Sitemap = staticPages.flatMap(
+    (path) =>
+      locales.map((locale) => ({
         url: `${siteConfig.url}/${locale}${path}`,
-        lastModified: new Date(),
-        changeFrequency:
-          "monthly" as const,
-        priority:
-          path === ""
-            ? 1
-            : 0.8,
+        changeFrequency: "monthly" as const,
+        priority: path === "" ? 1 : 0.8,
+        alternates: {
+          languages: {
+            en: `${siteConfig.url}/en${path}`,
+            ar: `${siteConfig.url}/ar${path}`,
+          },
+        },
       })),
   );
 
-  const projects =
-    locales.flatMap(
-      (locale) =>
-        getAllProjectSlugs().map(
-          (slug) => ({
-            url: `${siteConfig.url}/${locale}/projects/${slug}`,
-            lastModified:
-              new Date(),
-            changeFrequency:
-              "monthly" as const,
-            priority: 0.7,
-          }),
-        ),
-    );
+  const projectSlugs = getAllProjectSlugs();
 
-  return [
-    ...pages,
-    ...projects,
-  ];
+  const projects: MetadataRoute.Sitemap = projectSlugs.flatMap(
+    (slug) =>
+      locales.map((locale) => ({
+        url: `${siteConfig.url}/${locale}/projects/${slug}`,
+        changeFrequency: "monthly" as const,
+        priority: 0.7,
+        alternates: {
+          languages: {
+            en: `${siteConfig.url}/en/projects/${slug}`,
+            ar: `${siteConfig.url}/ar/projects/${slug}`,
+          },
+        },
+      })),
+  );
+
+  return [...pages, ...projects];
 }
